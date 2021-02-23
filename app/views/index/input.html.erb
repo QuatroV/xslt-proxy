@@ -1,0 +1,11 @@
+<h1>Ввод значений</h1>
+<p>Пожалуйста, введите в форму ниже, квадратный корень какого положительного числa вы хотели бы вычислить:</p>
+<form action = "<%= index_output_url %>" method = "get">
+    <input name ="num" type="number" min ="0" required value = "4" step = "any" placeholder="Ваше число" >
+    <p>Укажите, где бы вы хотели обрабатывать результаты:</p>
+    <input type="radio" name="where" value="server">На сервере<Br>
+    <input type="radio" name="where" value="browser">В браузере<Br>
+    <input type="radio" name="where" value="bareXML" checked>Получить XML<Br>
+    <br>
+    <input type="submit" value="Вычислить">
+</form>

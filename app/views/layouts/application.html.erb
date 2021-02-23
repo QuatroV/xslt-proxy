@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LABA 10.XSLT PROXY</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h1> ЛР 10. XML, XSLT </h1>
+    <div style="max-width:800px">
+    <p style="text-align: justify">
+    <span style="font-weight:bold">Tекст задания: </span><br><br>
+    Метод Ньютона – Рафсона основывается на утверждении, что квадратный корень числа А можно найти с помощью рекурентной формулы:<br>
+    <code style="font-weight:bold">x(i+1) = 1/2*(x(i)+A/x(i))</code>,где A — положительное число, x(i) — текущее приближение квадратного корня, x(i+1) — очередное приближенное значение
+    квадратного корня из числа A. Написать программу, определяющую квадратный корень заданных чисел, используя приведенную формулу. 
+    Прекращение процесса вычисления предусмотреть при выполнении условия
+    <code style="font-weight:bold">(x(i+1)^2-A)/A < 0.001</code>.<br>
+    Вывести промежуточные итерации и полученный результат.
+    </p>
+    </div>
+    <div style = "border: 1px solid black; max-width:750px; padding: 0px 25px 25px">
+      <%= yield %>
+    </div>
+  </body>
+</html>
