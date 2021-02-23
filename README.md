@@ -1,24 +1,5 @@
-# README
+# Лабораторная работa 10
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Лабораторная работa по курсу "Языки Интернет-программирования"
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Приложение вычисляет квадратный корень из числа с использованием формулы Ньютона-Рафсона. Применена технология xslt.
